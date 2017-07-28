@@ -9,7 +9,7 @@ it:
         firstname: Nome
         lastname: Cognome
         phone: Telefono
-        state: Provincia
+        state: Provincia/Stato
         zipcode: CAP
       spree/calculator/tiered_flat_rate:
         preferred_base_amount: Importo Base
@@ -60,7 +60,7 @@ it:
         firstname: Nome indirizzo di fatturazione
         lastname: Cognome indirizzo di fatturazione
         phone: Telefono indirizzo di fatturazione
-        state: Provincia indirizzo di fatturazione
+        state: Provincia/Stato indirizzo di fatturazione
         zipcode: CAP indirizzo di fatturazione
       spree/order/ship_address:
         address1: Indirizzo di spedizione
@@ -68,7 +68,7 @@ it:
         firstname: Nome indirizzo di spedizione
         lastname: Cognome indirizzo di spedizione
         phone: Telefono indirizzo di spedizione
-        state: Provincia indirizzo di spedizione
+        state: Provincia/Stato indirizzo di spedizione
         zipcode: CAP indirizzo di spedizione
       spree/payment:
         amount: Quantità
@@ -239,8 +239,8 @@ it:
         one: Metodo di Spedizione
         other: Metodi di Spedizione
       spree/state:
-        one: Provincia
-        other: Province
+        one: Provincia/Stato
+        other: Province/Stati
       spree/state_change:
         one: Cambio di Stato
         other: Cambi di Stato
@@ -442,7 +442,7 @@ it:
     add_product: Aggiungi Prodotto
     add_product_properties: Aggiungi Proprietà Prodotto
     add_rule_of_type: Aggiungi regola di tipologia
-    add_state: Aggiungi Stato/Provincia
+    add_state: Aggiungi Provincia/Stato
     add_stock: Aggiungi Scorte
     add_to_cart: Aggiungi al Carrello
     add_variant: Aggiungi Variante
@@ -920,7 +920,7 @@ it:
     new_shipping_category: Nuova Categoria di Spedizione
     new_shipping_method: Nuovo Metodo di Spedizione
     new_shipment_at_location: Nuova spedizione alla location
-    new_state: Nuova Provincia
+    new_state: Nuova Provincia/Stato
     new_stock_location: Nuovo Magazzino
     new_stock_movement: Nuovo Movimento di Magazzino
     new_stock_transfer: Nuovo Trasferimento di Magazzino
@@ -1330,9 +1330,9 @@ it:
     ssl:
       change_protocol: Per favore passa all'utilizzo di HTTP (invece che HTTPS) e riprova questa richiesta.
     start: Inizio
-    state: Stato
-    state_based: Basato sullo Stato
-    states: Stati
+    state: Provincia/Stato
+    state_based: Basato sulla Provincia/Stato
+    states: Province/Stati
     state_machine_states:
       accepted: Accettato
       address: Indirizzo
@@ -1365,7 +1365,7 @@ it:
       returned: Restituito
       shipped: Spedito
       void: Nullo
-    states_required: Stati Necessari
+    states_required: Province/Stati Necessari
     status: Stato
     stock: Stock
     stock_location: Magazzino
