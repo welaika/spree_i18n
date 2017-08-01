@@ -71,7 +71,7 @@ it:
         state: Provincia/Stato indirizzo di spedizione
         zipcode: CAP indirizzo di spedizione
       spree/payment:
-        amount: Quantità
+        amount: Importo
         number: Numero
       spree/payment_method:
         name: Nome
@@ -106,7 +106,7 @@ it:
       spree/prototype:
         name: Nome
       spree/return_authorization:
-        amount: Quantità
+        amount: Importo
       spree/role:
         name: Nome
       spree/shipment:
@@ -137,7 +137,7 @@ it:
         description: Descrizione
         name: Nome
       spree/tax_rate:
-        amount: Tasso
+        amount: Importo
         included_in_price: Incluso nel Prezzo
         show_rate_in_label: Mostra tasso nell'etichetta
       spree/taxon:
@@ -510,7 +510,7 @@ it:
     already_signed_up_for_analytics: Sei già registrato per Spree Analytics
     alt_text: Testo Alternativo
     alternative_phone: Telefono Alternativo
-    amount: Quantità
+    amount: Importo
     analytics_desc_header_1: Spree Analytics
     analytics_desc_header_2: Analytics in tempo reale integrato nella tua dashboard di Spree
     analytics_desc_list_1: Ottieni informazioni sulle vendite in tempo reale
@@ -885,7 +885,7 @@ it:
     meta_title: Meta Title
     metadata: Metadata
     mutable: Sostituibile
-    minimal_amount: Quantità minima
+    minimal_amount: Importo minimo
     missing_return_authorization: ! 'Autorizzazione Restituzione assente per %{item_name}.'
     month: Mese
     more: Ancora
@@ -950,7 +950,7 @@ it:
     user_not_found: Utente non trovato
     none: Niente
     none_selected: Nessuno selezionato
-    normal_amount: Quantità Normale
+    normal_amount: Importo normale
     not: 'no'
     not_available: Non disponibile
     not_enough_stock: Non ci sono abbastanza scorte nel magazzino di partenza per completare questo trasferimento.
