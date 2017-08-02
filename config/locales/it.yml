@@ -397,7 +397,7 @@ it:
   errors:
     messages:
       already_confirmed: "è già stato confermato"
-      not_found: non trovato
+      not_found: non trovato/a
       not_locked: non era bloccato
       not_saved:
         one: ! '%{resource} non può essere salvato/a a causa di 1 errore:'
@@ -578,7 +578,7 @@ it:
     categories: Categorie
     category: Categoria
     charged: Addebitato
-    checkout: Checkout
+    checkout: Alla cassa
     choose_a_customer: Scegli un cliente
     choose_a_taxon_to_sort_products_for: Scegli un taxon con cui ordinare i prodotti
     choose_currency: Scegli una Valuta
@@ -690,7 +690,7 @@ it:
     destination: Destinazione
     destroy: Elimina
     discount_amount: Importo dello sconto
-    discontinue_on: Non più disponibie dal
+    discontinue_on: Non più disponibile dal
     discontinued: Non disponibile
     dismiss_banner: No, grazie! Non sono interessato, non mostrare più questo messaggio
     display: Mostra
@@ -718,7 +718,7 @@ it:
         not_first_order: Questo codice coupon può essere applicato solo al tuo primo ordine.
     email: Email
     empty: Vuoto
-    empty_cart: Vuota Carrello
+    empty_cart: Svuota il Carrello
     enable_mail_delivery: Abilita Consegna EMail
     end: Fine
     ending_in: Ultime Cifre
@@ -1104,8 +1104,8 @@ it:
         description: Crea una variazione promozionale sull'ordine
         name: Crea variazione per tutto l'ordine
       create_item_adjustments:
-        description: Crea una variazione promozionale per un articolo
-        name: Crea variazione per un articolo
+        description: Crea una variazione promozionale per ogni articolo
+        name: Crea variazione per ogni articolo
       create_line_items:
         description: Popola il carrello con la quantità specificata per la variante
         name: Crea righe d'ordine
