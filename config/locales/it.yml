@@ -1008,7 +1008,7 @@ it:
     order_number: "Ordine %{number}"
     order_processed_successfully: Il tuo ordine è stato processato con successo
     order_resumed: Ordine Riattivato
-    order_state:
+    order_states:
       address: indirizzo
       awaiting_return: in attesa di restituzione
       canceled: annullato
