@@ -578,7 +578,7 @@ it:
     categories: Categorie
     category: Categoria
     charged: Addebitato
-    checkout: Alla cassa
+    checkout: Cassa
     choose_a_customer: Scegli un cliente
     choose_a_taxon_to_sort_products_for: Scegli un taxon con cui ordinare i prodotti
     choose_currency: Scegli una Valuta
