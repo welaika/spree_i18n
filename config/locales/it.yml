@@ -995,7 +995,7 @@ it:
         subtotal: ! 'Subtotale:' # remove when spree will fix the problem in txt view
         total: ! 'Totale Ordine:' # remove when spree will fix the problem in txt view
       confirm_email:
-        dear_customer: "Caro Cliente,\n"
+        dear_customer: "Gentile Cliente,\n"
         instructions: Per favore rivedi queste informazioni e conservale come riferimento.
         order_summary: Riassunto Ordine
         subject: Conferma Ordine
