@@ -1435,9 +1435,9 @@ it:
     tags_placeholder: Aggiungi tag
     taxon_rule:
       choose_taxons: Scegli Taxon
-      label: L'ordine deve contenere quantità x di queste taxon
-      match_all: tutte
-      match_any: almeno una
+      label: L'ordine deve contenere
+      match_all: Tutte le taxon
+      match_any: Almeno una taxon
     taxonomies: Tassonomie
     taxonomy: Tassonomia
     taxonomy_brands_name: Marche
