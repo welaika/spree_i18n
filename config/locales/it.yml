@@ -712,7 +712,7 @@ it:
         missing_product: Questo codice coupon non può essere applicato poiché non hai nel carrello tutti i prodotti necessari.
         missing_taxon: Devi aggiungere un prodotto da tutte le categorie appropriate prima di applicare questo codice coupon.
         no_applicable_products: Devi aggiungere un prodotto appropriato prima di applicare questo codice coupon.
-        no_matching_taxons: Devi aggiungere un prodotto da una categorie appropriata prima di applicare questo codice coupon.
+        no_matching_taxons: Devi aggiungere un prodotto da una categoria appropriata prima di applicare questo codice coupon.
         no_user_or_email_specified: Devi fare il login o fornire una email prima di applicare questo codice coupon.
         no_user_specified: Devi fare il login prima di applicare questo codice coupon.
         not_first_order: Questo codice coupon può essere applicato solo al tuo primo ordine.
