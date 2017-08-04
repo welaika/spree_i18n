@@ -844,8 +844,6 @@ it:
     items_to_be_reimbursed: Articoli che devono essere rimborsati
     items_reimbursed: Articoli Rimborsati
     jirafe: Jirafe
-    landing_page_rule:
-      path: Percorso
     last_name: Cognome
     last_name_begins_with: Cognome inizia con
     learn_more: Leggi di più
@@ -1130,9 +1128,6 @@ it:
       item_total:
         description: Il totale dell'ordine soddisfa questi criteri
         name: Totale ordine
-      landing_page:
-        description: Il cliente deve aver visitato la pagina specificata
-        name: Landing Page
       one_use_per_user:
         description: Un solo utilizzo per utente
         name: Un solo utilizzo per utente
