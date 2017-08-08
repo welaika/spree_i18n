@@ -285,6 +285,10 @@ it:
         other: Zone
     errors:
       models:
+        spree/order:
+          attributes:
+            state:
+              invalid_transition: non può cambiare. Transizione non valida.
         spree/calculator/tiered_flat_rate:
           attributes:
             base:
