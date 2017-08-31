@@ -524,7 +524,7 @@ it:
     analytics_trackers: Tracker Analytics
     and: e
     approve: approva
-    approver: Approvatore
+    approver: Approvato da
     approved_at: Approvato il
     are_you_sure: Sei sicuro?
     are_you_sure_delete: Sei sicuro di voler eliminare questo record?
