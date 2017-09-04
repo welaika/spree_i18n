@@ -163,6 +163,9 @@ it:
         description: Descrizione
         name: Nome
     models:
+      spree/adjustment:
+        one: Variazione
+        other: Variazioni
       spree/address:
         one: Indirizzo
         other: Indirizzi
@@ -1032,7 +1035,7 @@ it:
     orders: Ordini
     out_of_stock: Non disponibile
     overview: Panoramica
-    package_from: pacco da
+    package_from: Pacco da
     pagination:
       next_page: "pagina successiva &raquo;"
       previous_page: ! "&laquo; pagina precedente"
