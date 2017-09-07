@@ -215,8 +215,8 @@ it:
         one: Prototipo
         other: Prototipi
       spree/refund_reason:
-        one: Ragione Rimborso
-        other: Ragioni Rimborso
+        one: Motivazione Rimborso
+        other: Motivazioni Rimborso
       spree/reimbursement:
         one: Rimborso
         other: Rimborsi
@@ -903,7 +903,7 @@ it:
     new: Nuovo
     new_adjustment: Nuova Variazione
     new_customer: Nuovo Cliente
-    new_customer_return: Nuova Restituzione Cliente
+    new_customer_return: Nuova Reso Cliente
     new_country: Nuova Nazione
     new_image: Nuova Immagine
     new_option_type: Nuova Tipologia di Opzione
@@ -1425,7 +1425,7 @@ it:
     subtotal: Totale
     subtract: Sottrai
     success: Successo
-    successfully_created: ! '%{resource} è stata creata con successo!'
+    successfully_created: ! '%{resource} è stata creato/a con successo!'
     successfully_refunded: ! '%{resource} è stato rimborsato con successo!'
     successfully_removed: ! '%{resource} è stato rimosso con successo!'
     successfully_signed_up_for_analytics: Registrazione a Spree Analytics avvenuta con successo
