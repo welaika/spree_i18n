@@ -995,22 +995,22 @@ it:
       subtotal: ! 'Subtotale:'
       total: ! 'Totale Ordine:'
       cancel_email:
-        dear_customer: "Gentile Cliente,\n"
+        dear_customer: Gentile Cliente,
         instructions: Il tuo ordine è stato ANNULLATO. Per favore conserva queste informazioni per attestare l'annullamento.
-        order_summary_canceled: "Riassunto Ordine [ANNULLATO]"
+        order_summary_canceled: Riassunto Ordine %{number} [ANNULLATO]
         subject: Annullamento Ordine
         subtotal: ! 'Subtotale:' # remove when spree will fix the problem in txt view
         total: ! 'Totale Ordine:' # remove when spree will fix the problem in txt view
       confirm_email:
-        dear_customer: "Gentile Cliente,\n"
+        dear_customer: Gentile Cliente,
         instructions: Per favore rivedi queste informazioni e conservale come riferimento.
-        order_summary: Riassunto Ordine
+        order_summary: Riassunto Ordine %{number}
         subject: Conferma Ordine
         thanks: Grazie per il tuo ordine.
         subtotal: ! 'Subtotale:' # remove when spree will fix the problem in txt view
         total: ! 'Totale Ordine:' # remove when spree will fix the problem in txt view
     order_not_found: Non abbiamo trovato il tuo ordine. Per favore riprova ancora.
-    order_number: "Ordine %{number}"
+    order_number: Ordine %{number}
     order_processed_successfully: Il tuo ordine è stato processato con successo
     order_resumed: Ordine Riattivato
     order_states: &order_states
@@ -1228,7 +1228,7 @@ it:
     reimbursement_mailer:
       reimbursement_email:
         days_to_send: ! "Hai %{days} giorni per rispedire indietro gli articoli in attesa di cambio."
-        dear_customer: "Gentile Cliente,"
+        dear_customer: Gentile Cliente,
         exchange_summary: Riassunto cambi
         for: per
         instructions: Il tuo rimborso è stato processato.
@@ -1284,9 +1284,9 @@ it:
     shipment_details: "Da %{stock_location} via %{shipping_method}"
     shipment_mailer:
       shipped_email:
-        dear_customer: "Gentile Cliente,\n"
-        instructions: Il tuo ordine è stato spedito
-        shipment_summary: Riassunto Spedizione
+        dear_customer: Gentile Cliente,
+        instructions: Il tuo ordine %{number} è stato spedito
+        shipment_summary: Riassunto spedizione
         shipping_method: "Medoto di spedizione: %{shipping_method}"
         subject: Notifica di spedizione
         thanks: Grazie per il tuo ordine.
